@@ -1,8 +1,10 @@
-# EasyEffects presets for Surface devices built in speakers
+# My EasyEffects presets for laptop built-in speakers
 
-This is a preset for the [EasyEffects](https://github.com/wwmm/easyeffects) sound effect Linux app that I tuned to get better quality audio out of my Surface Laptop (3)'s built in speakers.
+This is a collection of presets for the [EasyEffects](https://github.com/wwmm/easyeffects) sound effect Linux app that I tuned to get better quality audio out of my laptops.
 
-It will probably sound fine with a few tweaks on other Surface devices, depending on how their frequency response is.
+It will probably sound fine with a few tweaks on other devices, depending on how their frequency response is.
+
+I've followed [this](https://wwmm.github.io/easyeffects/guide_1.html) guide by Markus Schmidt to create and tune these presets. I recommend you read it to better understand how the individual effects work and how they can be tuned.
 
 ## Installation
 
@@ -27,5 +29,5 @@ Adjust the Bass Enhancer's frequency to see which gives you the cleanest or loud
 
 In Stereo Tools, go to the Stereo Matrix tab and adjust the Side Level to boost the stereo separation.
 
-You can also play around with the Filter's frequency, but I suggest you keep it at at least 80 Hz. This is important as the small speakers can't reproduce frequencies this low at audible volumes and sparing them from some work makes the rest of the audio frequencies sound cleaner.
+You can also play around with the Filter's frequency, but I suggest you keep it above 100 Hz. This is important as the small speakers can't reproduce frequencies this low at audible volumes and sparing them from some work makes the rest of the audio frequencies sound cleaner.
 
