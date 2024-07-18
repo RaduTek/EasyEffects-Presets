@@ -52,7 +52,7 @@
                 },
                 "band11": {
                     "frequency": 15623.413251903488,
-                    "gain": 1.76,
+                    "gain": 0.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 1.7848855913456438,
@@ -191,7 +191,7 @@
                 },
                 "band11": {
                     "frequency": 15623.413251903488,
-                    "gain": 1.76,
+                    "gain": 0.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 1.7848855913456438,
@@ -552,15 +552,15 @@
             "compressor-mode": "Modern",
             "dry": -100.0,
             "envelope-boost": "None",
-            "input-gain": -8.0,
+            "input-gain": -2.0,
             "output-gain": 0.0,
             "stereo-split": false,
             "wet": 0.0
         },
         "plugins_order": [
             "bass_enhancer#0",
-            "equalizer#0",
             "filter#0",
+            "equalizer#0",
             "multiband_compressor#0",
             "limiter#0"
         ]
